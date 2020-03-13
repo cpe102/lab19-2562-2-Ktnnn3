@@ -30,7 +30,7 @@ int main(){
 		if(player_action == 'H') p = hero.heal();
 		
 		if(player_action == 'A') p = hero.attack(mons); 
-		if(monster_action == 'A') m = mons.attack(hero); 
+		if(monster_action == 'A') m = mons.attack(hero); fsg
 		
 		if(hero.isDead()){
 			drawScene(player_action,p,monster_action,m);
